@@ -1,0 +1,277 @@
+/* Estilos generales */
+.App {
+  display: flex;
+}
+.container {
+  font-family: Inter, sans-serifs;
+  display: flex;
+  width: 1440px;
+  height: 1023px;
+  top: -1265px;
+  left: -1892px;
+  border-radius: 12px;
+  display: flex;
+} 
+.today-card1 {
+  width: 28.6875rem;
+  height: 63.9375rem;
+  flex-shrink: 0;
+  background: #1E213A;
+}
+
+.citySelector{
+  width: 459px;
+height: 1023px;
+background-color: #1E213A;
+}
+.element{
+  display: flex; /* Usa flexbox para centrar */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+  text-align: center; /* Alinea el texto al centro */
+}
+.elemen1{
+width: 202px;
+height: 234px;
+top: 191px;
+left: 129px;
+margin-bottom: 26%;
+}
+.elemen2{
+  Height:169px;
+  Top:512px;
+  Left:124px;
+  Width:192px;
+  color: #E7E7EB;
+  font-family: Inter, sans-serifs;
+  font-size: 144px;
+  font-weight: 300;
+  line-height: 169px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 25%;
+  margin-top: 10%;
+  
+}
+.grados{
+  color: #A09FB1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serifs;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.elemen3{
+  color: #A09FB1;
+  text-align: center;
+  font-family: Inter, sans-serifs;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 25%;
+}
+.elemen4{
+  color: #88869D;
+  font-family: Inter, sans-serifs;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.elemen5{
+  color: #88869D;
+  font-family: Inter, sans-serifs;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.today-card2 {
+  width: 981px;
+  height: 1023px;
+  left: 459px;
+  padding: 20px;
+  background-color: #100E1D;
+  display: flex;
+  flex-direction: column; /* Asegurar que los elementos estén en columna */
+  overflow: hidden; /* Ocultar cualquier contenido que exceda las dimensiones */
+  box-sizing: border-box; /* Incluir el padding y borde en las dimensiones totales */
+}
+.temperature {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 76%; /* Mueve los elementos 2 cm hacia la izquierda */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+}
+#tem{
+  font-family: Inter, sans-serifs;
+  width: 40px;
+  height: 40px;
+  top: 42px;
+  left: 1223px;
+  border-radius: 54px ;    
+  background-color:#585676;
+  border: #585676;
+  color: white;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+#per{
+  width: 40px;
+  height: 40px;
+  top: 42px;
+  left: 1223px;
+  border-radius: 54px ;    
+  background-color:#585676;
+  border: #585676;
+  color: white;
+  line-height: 30px;
+  margin-right: 10px;
+  font-family: Inter, sans-serifs;
+}
+#tem.active{
+  background-color:#E7E7EB ;
+  color: #110E3C;
+}
+#per.active{
+  background-color:#E7E7EB ;
+  color: #110E3C;
+}
+
+.AlltoDay {
+  width: 800px;
+  height: 600px;
+  background-color: #100E1D;
+  display: flex;
+  justify-content: center;
+  margin-left: 65px;
+}
+
+.day-card {
+  width: 120px;
+  height: 177px;
+  top: 148px;
+  left: 759px;
+  margin: 10px;
+  color: #E7E7EB;
+  background-color: #1E213A;
+  font-family: Inter, sans-serifs;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-size: 16px;
+}
+.card-content {
+  justify-content: center;
+  margin-top:auto;
+}
+.imgDay{
+  width: 56.44px;
+  height: 62px;
+  top: 195px;
+  left: 645px;
+  justify-content: center;
+  }
+.H2{
+  color: #E7E7EB;
+  font-family: Inter, sans-serifs;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -40%; 
+  margin-left: 130px;
+}
+.DadToDay{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 1%;
+}
+.horizontalContainer{
+  color: #E7E7EB;
+height: 19px;
+top: 479px;
+left: 1119px;
+  font-family: Inter, sans-serifs;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.toDay1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 328px; /* Ajusta el ancho de los contenedores para que queden dos en una fila */
+  Height:204px;
+  Top:457px;
+  Left:989px;
+  margin-top: 20px;
+  margin-right: 20px; /* Ajusta el espacio entre los contenedores */
+  background-color: #1E213A;
+  box-sizing: border-box;
+}
+.toDay2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 328px;
+  height: 160px;
+  top: 709px;
+  left: 989px;
+  margin-top: 20px;
+  margin-right: 20px; /* Ajusta el espacio entre los contenedores */
+  background-color: #1E213A;
+  box-sizing: border-box;
+  
+}
+.infodata{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+  height: 75px;
+  top: 756px;
+  left: 1064px;
+  font-family: Inter, sans-serifs;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 12%;
+  margin-top: -10%;
+}
+
+.i{
+  font-family: Inter, sans-serifs;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 50%;
+}
